@@ -10,7 +10,7 @@ class Config:
     ACTIVE_MODEL_FILE = os.path.join(MODEL_DIR, 'active_model.txt')
     PLUGIN_DIR = os.path.join(BASE_DIR, '..', 'plugins')
     MEMORY_FILE = os.path.join(BASE_DIR, '..', 'memory', 'memory.json')
-    GPG_PUBKEY = os.path.join(BASE_DIR, '..', 'blux_author_pubkey.asc')
+    GPG_PUBKEY = os.path.join(BASE_DIR, '..', '0xCD0C090C-pub.asc')
     HF_TOKEN = os.getenv("HF_TOKEN", "")
 
 
