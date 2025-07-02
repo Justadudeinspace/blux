@@ -1,0 +1,8 @@
+# This is only the beginning
+
+# .gitignore structure 
+__pycache__/
+*.pyc
+models/
+memory/
+.env
