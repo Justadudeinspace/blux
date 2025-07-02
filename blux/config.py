@@ -1,4 +1,4 @@
-python
+# python
 import os
 
 class Config:
@@ -12,4 +12,5 @@ class Config:
     MEMORY_FILE = os.path.join(BASE_DIR, '..', 'memory', 'memory.json')
     GPG_PUBKEY = os.path.join(BASE_DIR, '..', 'blux_author_pubkey.asc')
     HF_TOKEN = os.getenv("HF_TOKEN", "")
+
 

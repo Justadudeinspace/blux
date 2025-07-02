@@ -1,0 +1,18 @@
+# json
+[
+  {
+    "name": "ExamplePlugin",
+    "description": "An example plugin for BLUX. Returns a canned response.",
+    "author": "JADIS",
+    "version": "1.0.0",
+    "url": "https://raw.githubusercontent.com/Justadudeinspace/blux-plugins/main/ExamplePlugin.py"
+  },
+  {
+    "name": "HelloWorld",
+    "description": "A simple plugin that prints 'Hello, World!'",
+    "author": "JADIS",
+    "version": "1.0.0",
+    "url": "https://raw.githubusercontent.com/Justadudeinspace/blux-plugins/main/HelloWorld.py"
+  }
+]
+

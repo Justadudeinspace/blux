@@ -1,8 +1,9 @@
+# bash
 #!/data/data/com.termux/files/usr/bin/bash
-set -e
+set -euo pipefail
 
 echo "Available models:"
-ls models/llama.cpp/models/*.gguf 2>/dev/null || echo "No models found."
+ls models/llama.cpp/models/*.gguf 2>/dev/null || { echo "No models found."; exit 1; }
 echo
 read -p "Enter model filename to use (e.g., ggml-vocab-deepseek-coder.gguf): " MODEL
 if [ ! -f "models/llama.cpp/models/$MODEL" ]; then

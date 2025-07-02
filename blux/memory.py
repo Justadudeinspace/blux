@@ -1,4 +1,4 @@
-python
+# python
 import json
 import os
 from blux.config import Config

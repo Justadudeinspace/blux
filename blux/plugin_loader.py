@@ -1,9 +1,12 @@
-python
+# python
 import importlib
 import os
 from blux.config import Config
 
 def load_plugins():
+    """
+    Dynamically loads all plugins in the plugins directory.
+    """
     plugins = []
     plugin_dir = Config.PLUGIN_DIR
     for fname in os.listdir(plugin_dir):

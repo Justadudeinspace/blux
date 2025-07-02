@@ -1,5 +1,6 @@
-python
+# python
 import subprocess
+import os
 from blux.config import Config
 
 class AIEngine:
@@ -14,7 +15,7 @@ class AIEngine:
         try:
             with open(Config.ACTIVE_MODEL_FILE, "r") as f:
                 model_filename = f.read().strip()
-            model_path = f"{Config.MODEL_DIR}/{model_filename}"
+            model_path = os.path.join(Config.MODEL_DIR, model_filename)
             if not model_filename or not os.path.isfile(model_path):
                 raise FileNotFoundError
             return model_path
@@ -37,3 +38,4 @@ class AIEngine:
             return "[Timeout] Model took too long to respond."
         except Exception as e:
             return f"[AIEngine Error] {e}"
+

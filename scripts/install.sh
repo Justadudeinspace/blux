@@ -1,5 +1,6 @@
+# bash
 # !/data/data/com.termux/files/usr/bin/bash
-set -e
+set -euo pipefail
 
 echo "🚀 Welcome to BLUX v2.0 Installer!"
 PKGS="python clang git cmake make openblas wget gnupg"
@@ -16,6 +17,12 @@ bash scripts/download_deepseek.sh
 
 echo "[*] Setting up initial model..."
 bash scripts/switch_model.sh
+
+echo "[*] Installing Acode IDE..."
+bash scripts/install_acode.sh
+
+echo "[*] Theming your Termux environment..."
+bash scripts/theme_termux.sh
 
 echo "[*] Installation complete! Run python3 blux/main.py to start BLUX."
 
