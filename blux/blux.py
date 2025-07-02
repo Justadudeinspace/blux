@@ -19,7 +19,7 @@ def main():
     except KeyboardInterrupt:
         print("\nExiting BLUX. Goodbye!")
 
-if __name__ == "__blux__":
+if __name__ == "__main__":
     main()
 
 
