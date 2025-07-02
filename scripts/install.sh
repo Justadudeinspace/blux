@@ -24,5 +24,5 @@ bash scripts/install_acode.sh
 echo "[*] Theming your Termux environment..."
 bash scripts/theme_termux.sh
 
-echo "[*] Installation complete! Run python3 blux/main.py to start BLUX."
+echo "[*] Installation complete! Run python3 blux/blux.py to start BLUX."
 
