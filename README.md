@@ -9,10 +9,20 @@
 
 # ⚡️ BLUX v2.0 – The Sovereign Android AI Forge ⚡️
 
+<div align="center">
+
+![Python](https://img.shields.io/badge/Python-3.8+-blue?logo=python&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-Repository-black?logo=github)
+![Version](https://img.shields.io/badge/version-2.0.0-blue)
+![GitHub license](https://img.shields.io/github/license/Justadudeinspace/blux)
+![GitHub last commit](https://img.shields.io/github/last-commit/Justadudeinspace/blux)
+![GitHub repo size](https://img.shields.io/github/repo-size/Justadudeinspace/blux)
+
+</div>
 
 > **Create. Innovate. Never Destroy.**
 >
-> By JADIS
+> By ~JADIS
 
 ---
 
@@ -20,7 +30,7 @@
 
 BLUX v2.0 is a fully offline, AI-powered, terminal-based development forge for Android.
 
-No PC. No subscriptions. No limits.
+- No PC. No subscriptions. No limits.
 
 Harness the power of local LLMs, voice, automation, and scripting—right on your device.
 
@@ -42,16 +52,23 @@ Harness the power of local LLMs, voice, automation, and scripting—right on you
 
 ## ⚠️ Responsible Use Statement
 
+
+```
 BLUX is a tool for creation and innovation.
 **It is NOT intended for malicious use. I do not support hacking, destruction, or harm.**
 I am not responsible for how others use this tool.
 Use BLUX to build, learn, and push boundaries—never to destroy.
+```
 
 ---
 
+
 ## 📦 Installation
 
+
 1. **Install Termux** (Android 10+)
+
+
 
 2. **Clone this repo:**
 
@@ -60,17 +77,20 @@ git clone https://github.com/Justadudeinspace/blux.git
 cd blux
 ```
 
+
 3. **Set your Hugging Face token (for model downloads):**
 
 ```
 export HF_TOKEN=your_huggingface_token
 ```
 
+
 4. **Run the installer:**
 
 ```
 bash scripts/install.sh
 ```
+
 
 5. **Switch models anytime:**
 
@@ -81,7 +101,9 @@ bash scripts/switch_model.sh
 
 ---
 
+
 ## 🧪 Benchmark Models
+
 
 Test all installed models for speed and memory usage:
 
@@ -89,9 +111,12 @@ Test all installed models for speed and memory usage:
 bash scripts/benchmark_models.sh
 ```
 
+
 ---
 
+
 ## 🔌 Plugin Marketplace
+
 
 Discover and install plugins:
 
@@ -102,25 +127,35 @@ python scripts/install_plugin.py
 - Browse available plugins in `plugins/registry.json`
 - Install new plugins instantly
 
+
 ---
+
 
 ## 🖥️ Acode IDE Integration
 
-Acode is a powerful Android code editor.
 
-BLUX will prompt you to install and launch Acode for full IDE capabilities.
+- Acode is a powerful Android code editor.
+
+- BLUX will prompt you to install and launch Acode for full IDE capabilities.
+
 
 ---
+
 
 ## 🎨 BLUX Terminal Theme
 
-Upon install, your Termux terminal will be themed with the BLUX logo and a custom color prompt for a unique hacking experience.
+
+Upon install, your Termux terminal will be themed with the BLUX logo and a custom color prompt for a unique developing experience.
+
 
 ---
 
+
 ## 🔑 Author Authenticity
 
+
 All official BLUX releases are signed with my GPG key.
+
 
 To verify:
 
@@ -129,20 +164,27 @@ gpg --import blux_author_pubkey.asc
 gpg --verify blux_v2_xda_ready.sig blux_v2_xda_ready.zip
 ```
 
+
 ---
+
 
 ## 🛠️ Troubleshooting
 
-- **Model  not found:** Run `bash scripts/switch_model.sh` and select a valid model.
+
+- **Model not found:** Run `bash scripts/switch_model.sh` and select a valid model.
 - **Model download fails:** Ensure your Hugging Face token is set and valid.
 - **Plugin not loading:** Check for syntax errors or missing dependencies in the plugin file.
 - **Update BLUX:** Run `bash scripts/update.sh`
 
+
 ---
+
 
 ## 🧪 How to Test BLUX v2.0
 
+
 1. **Install BLUX as above.**
+
 
 2. **Run the main app:**
 
@@ -151,6 +193,7 @@ python blux/blux.py
 ```
 
 - Enter a prompt and verify AI response.
+
 
 3. **Switch models:**
 
@@ -161,6 +204,7 @@ python blux/blux.py
 
 - Ensure the new model responds.
 
+
 4. **Benchmark models:**
 
 ```
@@ -168,6 +212,7 @@ bash scripts/benchmark_models.sh
 ```
 
 - Check logs for speed/memory.
+
 
 5. **Install a plugin:**
 
@@ -178,17 +223,22 @@ python blux/blux.py
 
 - Ensure plugin output appears.
 
+
 6. **Check Termux theming:**
 
 - Open a new Termux session and verify BLUX logo and prompt.
+
 
 7. **Test Acode integration:**
 
 - Open Acode and edit files in your BLUX repo.
 
+
 ---
 
+
 ## 🧹 PEP 8 Compliance
+
 
 To check all Python code for PEP 8 compliance:
 
@@ -198,21 +248,29 @@ To check all Python code for PEP 8 compliance:
 pip install flake8
 ```
 
+
 2. **Run flake8 on the blux directory:**
 
 ```
 flake8 blux/
 ```
 
+
 3. **Fix any reported issues for clean, professional code.**
+
 
 ---
 
+
 ## 💬 Final Words
 
+
+```
 BLUX v2.0 is for the visionaries, the outcasts, and the creators who refuse to accept “impossible.”
 
 Let’s build the future—one line of code at a time.
+```
 
-— **JADIS**
+#### **~JADIS**
+
 
