@@ -17,8 +17,11 @@
 ---
 
 ## 🔥 What is BLUX v2.0?
-BLUX v2.0 is a fully offline, AI-powered, terminal-based development forge for Android.  
-No PC. No subscriptions. No limits.  
+
+BLUX v2.0 is a fully offline, AI-powered, terminal-based development forge for Android.
+
+No PC. No subscriptions. No limits.
+
 Harness the power of local LLMs, voice, automation, and scripting—right on your device.
 
 ---
@@ -48,7 +51,7 @@ Use BLUX to build, learn, and push boundaries—never to destroy.
 
 ## 📦 Installation
 
-1. **Install Termux** (Androi d 10+)
+1. **Install Termux** (Android 10+)
 
 2. **Clone this repo:**
 
@@ -198,7 +201,7 @@ pip install flake8
 2. **Run flake8 on the blux directory:**
 
 ```
-flak e8 blux/
+flake8 blux/
 ```
 
 3. **Fix any reported issues for clean, professional code.**
