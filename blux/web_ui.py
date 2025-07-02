@@ -22,5 +22,5 @@ def launch_web(ai_engine, memory):
             response = ai_engine.process(prompt)
         return render_template_string(template, response=response)
 
-    app.run(host='0.0.0.0', port=5000)
+    app.run(host='0.0.0.0', port=8080)
 
