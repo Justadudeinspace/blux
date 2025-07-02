@@ -11,10 +11,11 @@
 
 <div align="center">
 
-![Python](https://img.shields.io/badge/Python-3.8+-blue?logo=python&logoColor=white)
+[![Build Status](https://img.shields.io/github/actions/workflow/status/Justadudeinspace/blux/ci.yml?branch=main)](https://github.com/Justadudeinspace/blux/actions)
+[![Python Version](https://img.shields.io/badge/python-3.10%2B-blue)](https://www.python.org/)
 ![GitHub](https://img.shields.io/badge/GitHub-Repository-black?logo=github)
 ![Version](https://img.shields.io/badge/version-2.0.0-blue)
-![GitHub license](https://img.shields.io/github/license/Justadudeinspace/blux)
+[![License: MIT](https://img.shields.io/github/license/Justadudeinspace/blux)](LICENSE)
 ![GitHub last commit](https://img.shields.io/github/last-commit/Justadudeinspace/blux)
 ![GitHub repo size](https://img.shields.io/github/repo-size/Justadudeinspace/blux)
 
