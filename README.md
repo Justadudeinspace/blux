@@ -11,7 +11,6 @@
 
 <div align="center">
 
-[![Build Status](https://img.shields.io/github/actions/workflow/status/Justadudeinspace/blux/ci.yml?branch=main)](https://github.com/Justadudeinspace/blux/actions)
 [![Python Version](https://img.shields.io/badge/python-3.10%2B-blue)](https://www.python.org/)
 ![GitHub](https://img.shields.io/badge/GitHub-Repository-black?logo=github)
 ![Version](https://img.shields.io/badge/version-2.0.0-blue)
