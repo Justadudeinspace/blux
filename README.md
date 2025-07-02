@@ -9,7 +9,6 @@
 
 # ⚡️ BLUX v2.0 – The Sovereign Android AI Forge ⚡️
 
-![BLUX Logo](assets/blux_logo.txt)
 
 > **Create. Innovate. Never Destroy.**
 >
@@ -54,7 +53,7 @@ Use BLUX to build, learn, and push boundaries—never to destroy.
 2. **Clone this repo:**
 
 ```
-git clone https://github.com/Justadudeinspace/blux
+git clone https://github.com/Justadudeinspace/blux.git
 cd blux
 ```
 
@@ -145,7 +144,7 @@ gpg --verify blux_v2_xda_ready.sig blux_v2_xda_ready.zip
 2. **Run the main app:**
 
 ```
-python blux/main.py
+python blux/blux.py
 ```
 
 - Enter a prompt and verify AI response.
@@ -154,7 +153,7 @@ python blux/main.py
 
 ```
 bash scripts/switch_model.sh
-python blux/main.py
+python blux/blux.py
 ```
 
 - Ensure the new model responds.
@@ -171,7 +170,7 @@ bash scripts/benchmark_models.sh
 
 ```
 python scripts/install_plugin.py
-python blux/main.py
+python blux/blux.py
 ```
 
 - Ensure plugin output appears.
@@ -208,7 +207,8 @@ flak e8 blux/
 
 ## 💬 Final Words
 
-BLUX v2.0 is for the visionaries, the outcasts, and the creators who refuse to accept “impossible.”  
+BLUX v2.0 is for the visionaries, the outcasts, and the creators who refuse to accept “impossible.”
+
 Let’s build the future—one line of code at a time.
 
 — **JADIS**
