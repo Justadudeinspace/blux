@@ -21,4 +21,11 @@ pkg install -y proot-distro
 # Create folders
 mkdir -p memory models logs
 
+set -e
+
+echo "🚀 BLUX Deepseek Integration Installer"
+bash scripts/install_llama.sh
+bash scripts/download_deepseek.sh
+echo "✅ Deepseek integration complete. Ready to run local LLM!"
+
 echo "✅ Installation Complete."

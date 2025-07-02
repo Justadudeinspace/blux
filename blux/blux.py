@@ -1,3 +1,4 @@
+python
 from blux.terminal_ui import TerminalUI
 from blux.ai_engine import AIEngine
 from blux.voice_engine import VoiceEngine
@@ -14,6 +15,11 @@ def main():
     terminal = TerminalUI(ai_engine, memory)
     automation = Automation()
     voice = VoiceEngine(ai_engine, memory)
+
+    # For local Deepseek
+    engine = AIEngine("models/llama.cpp/models/ggml-vocab-deepseek-coder.gguf")
+    response = engine.query_deepseek("Your prompt here")
+    print(response)
 
     # Optional Web UI
     if os.getenv("BLUX_WEB") == "1":

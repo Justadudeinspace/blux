@@ -1,13 +1,24 @@
+python
 import requests
 import subprocess
+import os
 import json
 from blux.config import Config
 
 class AIEngine:
-    def __init__(self, memory):
-        self.memory = memory
-        self.config = Config()
-        self.api_mode = self.detect_mode()
+    def __init__(self, model_path):
+        self.model_path = models/llama.cpp/models/ggml-vocab-deepseek-coder.gguf
+
+    def query_deepseek(self, prompt):
+        try:
+            result = subprocess.run([
+                "./models/llama.cpp/main",
+                "-m", self.model_path,
+                "-p", prompt
+            ], capture_output=True, text=True)
+            return result.stdout.strip()
+        except Exception as e:
+            return f"[DeepSeek Error] {e}"
 
     def detect_mode(self):
         if self.config.OPENROUTER_API_KEY:
@@ -52,3 +63,22 @@ class AIEngine:
             return result.stdout.strip()
         except Exception as e:
             return f"Offline error: {e}"
+
+python
+import subprocess
+import os
+
+class AIEngine:
+    def __init__(self, model_path):
+        self.model_path = model_path
+
+    def query_deepseek(self, prompt):
+        try:
+            result = subprocess.run([
+                "./models/llama.cpp/main",
+                "-m", self.model_path,
+                "-p", prompt
+            ], capture_output=True, text=True)
+            return result.stdout.strip()
+        except Exception as e:
+            return f"[DeepSeek Error] {e}"
