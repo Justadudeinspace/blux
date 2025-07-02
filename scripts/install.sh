@@ -1,31 +1,21 @@
-#!/bin/bash
-
-echo "🚀 Installing BLUX dependencies..."
-
-# Update packages
-pkg update -y
-pkg upgrade -y
-
-# Install Termux essentials
-pkg install -y python git clang ffmpeg cmake termux-api
-
-# Install Python libraries
-pip install -r requirements.txt
-
-# Whisper.cpp dependencies
-pkg install -y build-essential
-
-# Proot (if using Ollama or local LLMs)
-pkg install -y proot-distro
-
-# Create folders
-mkdir -p memory models logs
-
+# !/data/data/com.termux/files/usr/bin/bash
 set -e
 
-echo "🚀 BLUX Deepseek Integration Installer"
+echo "🚀 Welcome to BLUX v2.0 Installer!"
+PKGS="python clang git cmake make openblas wget gnupg"
+for pkg in $PKGS; do
+    if ! command -v $pkg >/dev/null 2>&1; then
+        echo "[-] Installing $pkg..."
+        pkg install -y $pkg
+    fi
+done
+
+echo "[*] Installing llama.cpp and Deepseek model..."
 bash scripts/install_llama.sh
 bash scripts/download_deepseek.sh
-echo "✅ Deepseek integration complete. Ready to run local LLM!"
 
-echo "✅ Installation Complete."
+echo "[*] Setting up initial model..."
+bash scripts/switch_model.sh
+
+echo "[*] Installation complete! Run python3 blux/main.py to start BLUX."
+

@@ -1,4 +1,4 @@
-# !/data/data/com.termux/files/usr/bin/bash
+#!/data/data/com.termux/files/usr/bin/bash
 set -e
 
 echo "🚀 Installing llama.cpp..."
@@ -12,3 +12,4 @@ cd llama.cpp
 make clean
 make LLAMA_NATIVE=1
 echo "✅ llama.cpp Installed Successfully!"
+

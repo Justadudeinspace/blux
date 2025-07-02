@@ -1,84 +1,39 @@
 python
-import requests
 import subprocess
-import os
-import json
 from blux.config import Config
 
 class AIEngine:
-    def __init__(self, model_path):
-        self.model_path = models/llama.cpp/models/ggml-vocab-deepseek-coder.gguf
+    """
+    Engine for running local LLMs via llama.cpp.
+    """
 
-    def query_deepseek(self, prompt):
+    def __init__(self):
+        self.model_path = self.get_active_model_path()
+
+    def get_active_model_path(self):
         try:
-            result = subprocess.run([
-                "./models/llama.cpp/main",
-                "-m", self.model_path,
-                "-p", prompt
-            ], capture_output=True, text=True)
-            return result.stdout.strip()
-        except Exception as e:
-            return f"[DeepSeek Error] {e}"
+            with open(Config.ACTIVE_MODEL_FILE, "r") as f:
+                model_filename = f.read().strip()
+            model_path = f"{Config.MODEL_DIR}/{model_filename}"
+            if not model_filename or not os.path.isfile(model_path):
+                raise FileNotFoundError
+            return model_path
+        except Exception:
+            raise RuntimeError("No active model set. Please run scripts/switch_model.sh.")
 
-    def detect_mode(self):
-        if self.config.OPENROUTER_API_KEY:
-            return "online"
-        else:
-            return "offline"
-
-    def process(self, prompt):
-        self.memory.save_interaction(prompt)
-
-        if self.api_mode == "online":
-            return self.query_online(prompt)
-        else:
-            return self.query_offline(prompt)
-
-    def query_online(self, prompt):
-        headers = {
-            "Authorization": f"Bearer {self.config.OPENROUTER_API_KEY}",
-            "Content-Type": "application/json"
-        }
-        data = {
-            "model": "mistral/mistral-7b-instruct",
-            "messages": [{"role": "user", "content": prompt}]
-        }
-        try:
-            res = requests.post(
-                "https://openrouter.ai/api/v1/chat/completions",
-                headers=headers,
-                data=json.dumps(data)
-            )
-            return res.json()['choices'][0]['message']['content']
-        except Exception as e:
-            return f"API error: {e}"
-
-    def query_offline(self, prompt):
+    def query(self, prompt):
+        """
+        Run a prompt through the selected local model.
+        """
         try:
             result = subprocess.run(
-                ["./models/llama.cpp/main", "-p", prompt],
-                capture_output=True,
-                text=True
+                ["./models/llama.cpp/main", "-m", self.model_path, "-p", prompt],
+                capture_output=True, text=True, timeout=120
             )
+            if result.returncode != 0:
+                return f"[Model error] {result.stderr}"
             return result.stdout.strip()
+        except subprocess.TimeoutExpired:
+            return "[Timeout] Model took too long to respond."
         except Exception as e:
-            return f"Offline error: {e}"
-
-python
-import subprocess
-import os
-
-class AIEngine:
-    def __init__(self, model_path):
-        self.model_path = model_path
-
-    def query_deepseek(self, prompt):
-        try:
-            result = subprocess.run([
-                "./models/llama.cpp/main",
-                "-m", self.model_path,
-                "-p", prompt
-            ], capture_output=True, text=True)
-            return result.stdout.strip()
-        except Exception as e:
-            return f"[DeepSeek Error] {e}"
+            return f"[AIEngine Error] {e}"

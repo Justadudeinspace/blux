@@ -9,6 +9,7 @@ fi
 mkdir -p models/llama.cpp/models
 cd models/llama.cpp/models
 wget --header="Authorization: Bearer $HF_TOKEN" \
-https://huggingface.co/deepseek-ai/deepseek-coder-6.7b-base-GGUF/resolve/main/ggml-vocab-deepseek-coder.gguf \
+"https://huggingface.co/deepseek-ai/deepseek-coder-6.7b-base-GGUF/resolve/main/ggml-vocab-deepseek-coder.gguf" \
 -O ggml-vocab-deepseek-coder.gguf
 echo "✅ DeepSeek GGUF Downloaded!"
+

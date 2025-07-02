@@ -1,34 +1,33 @@
+python
 import json
 import os
+from blux.config import Config
 
 class Memory:
+    """
+    Persistent memory for BLUX.
+    """
     def __init__(self):
-        self.file = "./memory/memory.json"
-        if not os.path.exists(self.file):
-            with open(self.file, 'w') as f:
-                json.dump({"notes": [], "tasks": [], "history": []}, f)
-        self.data = self.load()
+        self.path = Config.MEMORY_FILE
+        self.data = {}
+        self.load()
 
     def load(self):
-        with open(self.file, 'r') as f:
-            return json.load(f)
+        if os.path.exists(self.path):
+            with open(self.path, 'r') as f:
+                self.data = json.load(f)
+        else:
+            self.data = {}
 
     def save(self):
-        with open(self.file, 'w') as f:
-            json.dump(self.data, f, indent=4)
-
-    def save_interaction(self, prompt):
-        self.data['history'].append(prompt)
-        self.save()
+        os.makedirs(os.path.dirname(self.path), exist_ok=True)
+        with open(self.path, 'w') as f:
+            json.dump(self.data, f, indent=2)
 
     def add_note(self, note):
-        self.data['notes'].append(note)
+        self.data.setdefault('notes', []).append(note)
         self.save()
 
     def get_notes(self):
-        return self.data['notes']
-
-    def clear_notes(self):
-        self.data['notes'] = []
-        self.save()
+        return self.data.get('notes', [])
 
