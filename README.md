@@ -30,11 +30,11 @@
 
 ## 🔥 What is BLUX v2.0?
 
-> ```BLUX v2.0 is a fully offline, AI-powered, terminal-based development forge for Android.```
+> BLUX v2.0 is a fully offline, AI-powered, terminal-based development forge for Android.
 
 - No PC. No subscriptions. No limits.
 
-> ```Harness the power of local LLMs, voice, automation, and scripting—right on your device.```
+> Harness the power of local LLMs, voice, automation, and scripting—right on your device.
 
 ---
 
@@ -55,12 +55,11 @@
 ## ⚠️ Responsible Use Statement
 
 
-```
-BLUX is a tool for creation and innovation.
-**It is NOT intended for malicious use. I do not support hacking, destruction, or harm.**
-I am not responsible for how others use this tool.
-Use BLUX to build, learn, and push boundaries—never to destroy.
-```
+> ```BLUX is a tool for creation and innovation.```
+> ```**It is NOT intended for malicious use. I do not support hacking, destruction, or harm.**```
+> ```I am not responsible for how others use this tool.```
+> ```Use BLUX to build, learn, and push boundaries—never to destroy.```
+
 
 ---
 
@@ -74,6 +73,7 @@ Use BLUX to build, learn, and push boundaries—never to destroy.
 
 2. **Clone this repo:**
 
+
 ```
 git clone https://github.com/Justadudeinspace/blux.git
 cd blux
@@ -82,6 +82,7 @@ cd blux
 
 3. **Set your Hugging Face token (for model downloads):**
 
+
 ```
 export HF_TOKEN=your_huggingface_token
 ```
@@ -89,12 +90,14 @@ export HF_TOKEN=your_huggingface_token
 
 4. **Run the installer:**
 
+
 ```
 bash scripts/install.sh
 ```
 
 
 5. **Switch models anytime:**
+
 
 ```
 bash scripts/switch_model.sh
@@ -109,6 +112,7 @@ bash scripts/switch_model.sh
 
 Test all installed models for speed and memory usage:
 
+
 ```
 bash scripts/benchmark_models.sh
 ```
@@ -121,6 +125,7 @@ bash scripts/benchmark_models.sh
 
 
 Discover and install plugins:
+
 
 ```
 python scripts/install_plugin.py
@@ -191,6 +196,7 @@ gpg --verify blux_v2_xda_ready.sig blux_v2_xda_ready.zip
 
 2. **Run the main app:**
 
+
 ```
 python blux/blux.py
 ```
@@ -199,6 +205,7 @@ python blux/blux.py
 
 
 3. **Switch models:**
+
 
 ```
 bash scripts/switch_model.sh
@@ -210,6 +217,7 @@ python blux/blux.py
 
 4. **Benchmark models:**
 
+
 ```
 bash scripts/benchmark_models.sh
 ```
@@ -218,6 +226,7 @@ bash scripts/benchmark_models.sh
 
 
 5. **Install a plugin:**
+
 
 ```
 python scripts/install_plugin.py
@@ -247,12 +256,14 @@ To check all Python code for PEP 8 compliance:
 
 1. **Install flake8:**
 
+
 ```
 pip install flake8
 ```
 
 
 2. **Run flake8 on the blux directory:**
+
 
 ```
 flake8 blux/
@@ -276,7 +287,7 @@ flake8 blux/
 ----
 
 
-# <p style="text-align: center">🚀 Contributors Wanted! Join the BLUX v2.0 Terminal AI Forge</p>
+# <p style="text-align: center;"> 🚀 Contributors Wanted! Join the BLUX v2.0 Terminal AI Forge </p>
 
 
 
@@ -285,7 +296,7 @@ flake8 blux/
 
 
 
-## <p style="text-align: center">BLUX v2.0 needs Radical Collaborators!</p>
+## <p style="text-align: center;"> BLUX v2.0 needs Radical Collaborators! </p>
 
 
 > We’re looking for passionate contributors to help shape the future of offline, modular, open-source AI on Android and Linux.
@@ -293,7 +304,7 @@ flake8 blux/
 > Whether you’re into Python, shell scripting, plugin development, UI/UX, documentation, or testing—there’s a place for you in the BLUX Forge.
 
 
-## <p style="text-align: center;">Collaboration Means:</p>
+## <p style="text-align: center;"> Collaboration Means: </p>
 
 
 - Working on cutting-edge terminal AI tools
@@ -319,4 +330,4 @@ flake8 blux/
 
 > To get started, fork the repo, open an issue, or just say hi on any channel above!
 
-# <p style="text-align: center;">~JADIS</p>
+# <p style="text-align: center;"> ~JADIS </p>
