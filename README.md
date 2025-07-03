@@ -11,12 +11,14 @@
 
 <div align="center">
 
-[![Python Version](https://img.shields.io/badge/python-3.10%2B-blue)](https://www.python.org/)
-![GitHub](https://img.shields.io/badge/GitHub-Repository-black?logo=github)
+![Python](https://img.shields.io/badge/Python-3.8+-blue?logo=python&logoColor=white)
 ![Version](https://img.shields.io/badge/version-2.0.0-blue)
-[![License: MIT](https://img.shields.io/github/license/Justadudeinspace/blux)](LICENSE)
+![GitHub license](https://img.shields.io/github/license/Justadudeinspace/blux)
 ![GitHub last commit](https://img.shields.io/github/last-commit/Justadudeinspace/blux)
 ![GitHub repo size](https://img.shields.io/github/repo-size/Justadudeinspace/blux)
+![Static Badge](https://img.shields.io/badge/Contact_By-Email-red?style=flat&logoSize=auto&color=black&cacheSeconds=3800&link=justadudeinspace4244%40hotmsil.com)
+[![Telegram](https://img.shields.io/badge/Telegram-Join%20Chat-2CA5E0?logo=telegram)](https://t.me/Justadudeinspace)
+[![WhatsApp](https://img.shields.io/badge/WhatsApp-Join%20Channel-25D366?logo=whatsapp&logoColor=white)](https://whatsapp.com/channel/0029Vb6Ps5W7oQhlQSkw7a21)
 
 </div>
 
