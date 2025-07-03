@@ -27,7 +27,7 @@ class VoiceEngine:
             )
             command = output.strip()
             print(f"🗣️ {command}")
-            response = self.ai_engine.process(command)
+            response = self.ai_engine.query(command)
             print(f"💡 {response}")
         except Exception as e:
             print(f"Voice error: {e}")

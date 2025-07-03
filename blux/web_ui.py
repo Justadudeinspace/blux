@@ -19,7 +19,7 @@ def launch_web(ai_engine, memory):
         response = None
         if request.method == 'POST':
             prompt = request.form['prompt']
-            response = ai_engine.process(prompt)
+            response = ai_engine.query(prompt)
         return render_template_string(template, response=response)
 
     app.run(host='0.0.0.0', port=8080)
