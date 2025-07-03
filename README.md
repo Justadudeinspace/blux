@@ -267,12 +267,52 @@ flake8 blux/
 ## 💬 Final Words
 
 
-```
-BLUX v2.0 is for the visionaries, the outcasts, and the creators who refuse to accept “impossible.”
+> ```BLUX v2.0 is for the visionaries, the outcasts, and the creators who refuse to accept “impossible.”```
 
-Let’s build the future—one line of code at a time.
-```
+> ```Let’s build the future—one line of code at a time.```
 
-#### **~JADIS**
+
+# 🚀 Contributors Wanted! Join the BLUX v2.0 Terminal AI Forge
+
+
+> ``'Are you a coder, creator, Android modder, AI enthusiast, or just a visionary who refuses to accept “impossible”?```
+
+
+## <div style="text-align: center;">![BLUX v2.0 needs Radical Collaborators!](https://github.com/Justadudeinspace/Justadudeinspace")</div>
+
+
+> ```We’re looking for passionate contributors to help shape the future of offline, modular, open-source AI on Android and Linux.```
+
+> ```Whether you’re into Python, shell scripting, plugin development, UI/UX, documentation, or testing—there’s a place for you in the BLUX Forge.```
+
+
+## <div style="text-align: center;">![Collaboration Means:](https://github.com/Justadudeinspace/Justadudeinspace")</div>
+
+
+- Working on cutting-edge terminal AI tools
+
+- Building and testing plugins (like the TWRP Builder)
+
+- Pushing the boundaries of what’s possible on Android and Linux
+
+- Learning, teaching, and creating together—no matter your background
+
+- Sound like your kind of rebellion?
+
+- Reach out and join the BLUX Forge today!
+
+
+<p align="center"> <a href="mailto:justadudeinspace4244@hotmail.com" target="_blank" title="Email JADIS"> <img src="https://img.shields.io/badge/Email-justadudeinspace4244%40hotmail.com-0072C6?logo=microsoft-outlook&logoColor=white" alt="Hotmail"/> </a> <a href="https://t.me/Justadudeinspace" target="_blank" title="Join on Telegram"> <img src="https://img.shields.io/badge/Telegram-Join%20Chat-2CA5E0?logo=telegram" alt="Telegram"/> </a> <a href="https://whatsapp.com/channel/0029Vb6Ps5W7oQhlQSkw7a21" target="_blank" title="WhatsApp Channel"> <img src="https://img.shields.io/badge/WhatsApp-Join%20Channel-25D366?logo=whatsapp&logoColor=white" alt="WhatsApp"/> </a> </p>
+
+
+- Let’s build something legendary.
+
+- Your mind. Your machine. Your reality.
+
+
+> ```To get started, fork the repo, open an issue, or just say hi on any channel above!```
+
+
+# ***<div style="text-align: center;">![~JADIS]()</div>***
 
 
