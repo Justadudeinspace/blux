@@ -276,21 +276,24 @@ flake8 blux/
 ----
 
 
-# 🚀 Contributors Wanted! Join the BLUX v2.0 Terminal AI Forge
+# <p style="text-align: center">🚀 Contributors Wanted! Join the BLUX v2.0 Terminal AI Forge</p>
 
 
-> ``'Are you a coder, creator, Android modder, AI enthusiast, or just a visionary who refuses to accept “impossible”?```
 
 
-## <div style="text-align: center;">BLUX v2.0 needs Radical Collaborators!</div>
+> Are you a coder, creator, Android modder, AI enthusiast, or just a visionary who refuses to accept “impossible”?
 
 
-> ```We’re looking for passionate contributors to help shape the future of offline, modular, open-source AI on Android and Linux.```
 
-> ```Whether you’re into Python, shell scripting, plugin development, UI/UX, documentation, or testing—there’s a place for you in the BLUX Forge.```
+## <p style="text-align: center">BLUX v2.0 needs Radical Collaborators!</p>
 
 
-## <div style="text-align: center;">Collaboration Means:</div>
+> We’re looking for passionate contributors to help shape the future of offline, modular, open-source AI on Android and Linux.
+
+> Whether you’re into Python, shell scripting, plugin development, UI/UX, documentation, or testing—there’s a place for you in the BLUX Forge.
+
+
+## <p style="text-align: center;">Collaboration Means:</p>
 
 
 - Working on cutting-edge terminal AI tools
@@ -314,9 +317,6 @@ flake8 blux/
 - Your mind. Your machine. Your reality.
 
 
-> ```To get started, fork the repo, open an issue, or just say hi on any channel above!```
+> To get started, fork the repo, open an issue, or just say hi on any channel above!
 
-
-## ***<div style="text-align: center;">~JADIS</div>***
-
-
+# <p style="text-align: center;">~JADIS</p>
