@@ -30,11 +30,11 @@
 
 ## 🔥 What is BLUX v2.0?
 
-BLUX v2.0 is a fully offline, AI-powered, terminal-based development forge for Android.
+> ```BLUX v2.0 is a fully offline, AI-powered, terminal-based development forge for Android.```
 
 - No PC. No subscriptions. No limits.
 
-Harness the power of local LLMs, voice, automation, and scripting—right on your device.
+> ```Harness the power of local LLMs, voice, automation, and scripting—right on your device.```
 
 ---
 
@@ -161,6 +161,7 @@ All official BLUX releases are signed with my GPG key.
 
 To verify:
 
+
 ```
 gpg --import blux_author_pubkey.asc
 gpg --verify blux_v2_xda_ready.sig blux_v2_xda_ready.zip
@@ -267,9 +268,12 @@ flake8 blux/
 ## 💬 Final Words
 
 
-> ```BLUX v2.0 is for the visionaries, the outcasts, and the creators who refuse to accept “impossible.”```
+> BLUX v2.0 is for the visionaries, the outcasts, and the creators who refuse to accept “impossible.”
 
-> ```Let’s build the future—one line of code at a time.```
+> Let’s build the future—one line of code at a time.
+
+
+----
 
 
 # 🚀 Contributors Wanted! Join the BLUX v2.0 Terminal AI Forge
@@ -278,7 +282,7 @@ flake8 blux/
 > ``'Are you a coder, creator, Android modder, AI enthusiast, or just a visionary who refuses to accept “impossible”?```
 
 
-## <div style="text-align: center;">![BLUX v2.0 needs Radical Collaborators!](https://github.com/Justadudeinspace/Justadudeinspace")</div>
+## <div style="text-align: center;"> ![BLUX v2.0 needs Radical Collaborators!](https://github.com/Justadudeinspace/Justadudeinspace") </div>
 
 
 > ```We’re looking for passionate contributors to help shape the future of offline, modular, open-source AI on Android and Linux.```
@@ -286,7 +290,7 @@ flake8 blux/
 > ```Whether you’re into Python, shell scripting, plugin development, UI/UX, documentation, or testing—there’s a place for you in the BLUX Forge.```
 
 
-## <div style="text-align: center;">![Collaboration Means:](https://github.com/Justadudeinspace/Justadudeinspace")</div>
+## <div style="text-align: center;"> ![Collaboration Means:](https://github.com/Justadudeinspace/Justadudeinspace") </div>
 
 
 - Working on cutting-edge terminal AI tools
@@ -313,6 +317,6 @@ flake8 blux/
 > ```To get started, fork the repo, open an issue, or just say hi on any channel above!```
 
 
-# ***<div style="text-align: center;">![~JADIS]()</div>***
+## ***<div style="text-align: center;"> ![~JADIS]() </div>***
 
 
