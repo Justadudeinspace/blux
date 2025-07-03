@@ -198,7 +198,7 @@ gpg --verify blux_v2_xda_ready.sig blux_v2_xda_ready.zip
 
 
 ```
-python blux/blux.py
+python3 -m blux.blux
 ```
 
 - Enter a prompt and verify AI response.
