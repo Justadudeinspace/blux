@@ -1,10 +1,10 @@
 # python
-from blux.ai_engine import AIEngine
-from blux.memory import Memory
-from blux.plugin_loader import load_plugins
+from .ai_engine import AIEngine
+from .memory import Memory
+from .plugin_loader import load_plugins
 
 def main():
-    print(open("assets/blux_logo.txt").read())
+    print(open("assets/blue_logo.txt").read())
     print("Welcome to BLUX v2.0!")
     memory = Memory()
     plugins = load_plugins()

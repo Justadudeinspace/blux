@@ -21,7 +21,7 @@ class TerminalUI:
                     self.memory.add_note(note)
                     self.console.print(f"Note saved: {note}")
                 else:
-                    response = self.ai_engine.process(prompt)
+                    response = self.ai_engine.query(prompt)
                     self.console.print(f"[bold yellow]{response}[/bold yellow]")
             except Exception as e:
                 self.console.print(f"[red]Error: {e}[/red]")

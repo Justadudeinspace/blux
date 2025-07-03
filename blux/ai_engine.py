@@ -9,7 +9,11 @@ class AIEngine:
     """
 
     def __init__(self):
-        self.model_path = self.get_active_model_path()
+        try:
+            self.model_path = self.get_active_model_path()
+        except Exception as e:
+            print(f"[AI Engine] Warning: {e}")
+            self.model_path = None
 
     def get_active_model_path(self):
         try:
@@ -26,6 +30,9 @@ class AIEngine:
         """
         Run a prompt through the selected local model.
         """
+        if not self.model_path:
+            return "[AI Engine] No model configured. Please set up a model first."
+        
         try:
             result = subprocess.run(
                 ["./models/llama.cpp/main", "-m", self.model_path, "-p", prompt],
