@@ -6,3 +6,10 @@ __pycache__/
 models/
 memory/
 .env
+
+# Security files (should not be committed)
+config/secret.key
+
+# Temporary files
+*.tmp
+*.log
