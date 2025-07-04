@@ -311,5 +311,9 @@ To get started, fork the repo, open an issue, or just say hi!
 
 # Sponsor
 
-"Support 'BLUX, The Sovereign Android AI Developer Forge' & Other Future Projects by Sponsoring [~JADIS @ Patreon](patreon.com/Justadudeinspace)
+<p align="center">
+  <a href="https://patreon.com/Justadudeinspace">
+    <img src="https://img.shields.io/badge/Sponsor%20on-Patreon-FF424D?style=for-the-badge&logo=patreon&logoColor=white" alt="Sponsor on Patreon">
+  </a>
+</p>
 
