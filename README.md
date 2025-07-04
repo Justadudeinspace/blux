@@ -38,6 +38,7 @@ By: ~JADIS
 - [Code Quality: PEP 8 Compliance](#-code-quality-pep-8-compliance)
 - [Final Words](#-final-words)
 - [Contributors Wanted! Join the BLUX v2.0 Terminal AI Forge](#-contributors-wanted-join-the-blux-v20-terminal-ai-forge)
+- [Sponsor](https://github.com/Justadudeinspace/blux#sponsor)
 
 ---
 
