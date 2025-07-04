@@ -11,9 +11,7 @@
 
 **"Your Mind. Your Machine. Your Reality."**
 
-```
-*Create. Innovate. Never Destroy.*
-```
+> ```*Create. Innovate. Never Destroy.*```
 
 By: ~JADIS
 
@@ -23,9 +21,7 @@ By: ~JADIS
 
 **BLUX v2.0** is a fully offline, AI-powered, terminal-based development forge for Android.
 
-```
-No PC. No subscriptions. No limits.
-```
+> ```No PC. No subscriptions. No limits.```
 
 - Harness the power of local LLMs, voice, automation, and scripting—right on your device.
 - Designed for creators, tinkerers, and visionaries who demand control and privacy.
@@ -218,9 +214,7 @@ gpg --verify blux_v2_xda_ready.sig blux_v2_xda_ready.zip
 
 BLUX v2.0 is for the visionaries, the outcasts, and the creators who refuse to accept “impossible.”
 
-```
-Let’s build the future—one line of code at a time.
-```
+> ```Let’s build the future—one line of code at a time.```
 
 ---
 
@@ -245,9 +239,7 @@ BLUX v2.0 needs radical collaborators!
 
 Let’s build something legendary.
 
-```
-**Your mind. Your machine. Your reality.**
-```
+> ```**Your mind. Your machine. Your reality.**```
 
 To get started, fork the repo, open an issue, or just say hi!
 
