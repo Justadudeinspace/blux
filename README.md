@@ -17,6 +17,30 @@ By: ~JADIS
 
 ---
 
+## 📚 Table of Contents
+
+- [What is BLUX v2.0?](#-what-is-blux-v20)
+- [Features](#-features)
+- [Responsible Use Statement](#-responsible-use-statement)
+- [Installation](#-installation)
+  - [Install Termux (Android 10+)](#1-install-termux-android-10)
+  - [Clone the Repository](#2-clone-the-repository)
+  - [Set Your Hugging Face Token](#3-set-your-hugging-face-token-for-model-downloads)
+  - [Run the Installer](#4-run-the-installer)
+  - [Switch Models](#5-switch-models-anytime)
+- [Model Benchmarking](#-model-benchmarking)
+- [Plugin Marketplace](#-plugin-marketplace)
+- [Acode IDE Integration](#-acode-ide-integration)
+- [BLUX Terminal Theme](#-blux-terminal-theme)
+- [Author Authenticity](#-author-authenticity)
+- [Troubleshooting](#-troubleshooting)
+- [How to Test BLUX v2.0](#-how-to-test-blux-v20)
+- [Code Quality: PEP 8 Compliance](#-code-quality-pep-8-compliance)
+- [Final Words](#-final-words)
+- [Contributors Wanted! Join the BLUX v2.0 Terminal AI Forge](#-contributors-wanted-join-the-blux-v20-terminal-ai-forge)
+
+---
+
 ## 🔥 What is BLUX v2.0?
 
 **BLUX v2.0** is a fully offline, AI-powered, terminal-based development forge for Android.
@@ -220,7 +244,7 @@ BLUX v2.0 is for the visionaries, the outcasts, and the creators who refuse to a
 
 ## 🚀 Contributors Wanted!
 
-> - Join the BLUX v2.0 Terminal AI Forge
+- Join the BLUX v2.0 Terminal AI Forge
 
 > Are you a coder, creator, Android modder, AI enthusiast, or a visionary who refuses to accept “impossible”?  
 BLUX v2.0 needs radical collaborators!
