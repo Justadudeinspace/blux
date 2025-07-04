@@ -6,8 +6,12 @@
   <b>"Your Mind. Your Machine. Your Reality."</b>
 </p>
 
+---
 
-# BLUX v2.0 – The Sovereign Android AI Forge ©️
+# BLUX – The Sovereign Android AI Forge ©️
+
+---
+
 
 **"Your Mind. Your Machine. Your Reality."**
 
