@@ -110,10 +110,10 @@ By: ~JADIS
 
 ## ⚠️ Responsible Use Statement
 
-> BLUX is a tool for creation and innovation.  
-> **It is NOT intended for malicious use.**  
-> I do not support hacking, destruction, or harm.  
-> Use BLUX to build, learn, and push boundaries—never to destroy.
+> - BLUX is a tool for creation and innovation.  
+> - **It is NOT intended for malicious use.**  
+> - I do not support hacking, destruction, or harm.  
+> - Use BLUX to build, learn, and push boundaries—never to destroy.
 
 ---
 
@@ -122,10 +122,10 @@ By: ~JADIS
 ### 1. Install Termux (Android 10+)
 
 - **Via F-Droid:**  
-  Download [Termux from F-Droid](https://f-droid.org/packages/com.termux/).
+  - Download [Termux from F-Droid](https://f-droid.org/packages/com.termux/).
 
 - **Via GitHub Releases:**  
-  Download the latest `.apk` from [Termux GitHub Releases](https://github.com/termux/termux-app/releases).
+  - Download the latest `.apk` from [Termux GitHub Releases](https://github.com/termux/termux-app/releases).
 
 ### 2. Clone the Repository
 
@@ -153,7 +153,6 @@ bash scripts/install.sh
 bash scripts/switch_model.sh
 ```
 
-
 ---
 
 ## 🧪 Model Benchmarking
@@ -163,7 +162,6 @@ Test all installed models for speed and memory usage:
 ```
 bash scripts/benchmark_models.sh
 ```
-
 
 ---
 
