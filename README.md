@@ -7,9 +7,6 @@
 </p>
 
 
-text
-![BLUX Logo](BLUX_logo.jpeg)
-
 # ⚡️ BLUX v2.0 – The Sovereign Android AI Forge ⚡️
 
 **"Your Mind. Your Machine. Your Reality."**  
