@@ -36,23 +36,26 @@ class AIEngine:
         if len(prompt) > 2048:
             raise ValueError("Prompt too long (max 2048 characters)")
         
-        # Remove dangerous characters and sequences
-        # Allow only alphanumeric, spaces, basic punctuation
-        safe_chars = re.compile(r'^[a-zA-Z0-9\s\.\,\?\!\-\'\"\$]+$')
-        if not safe_chars.match(prompt):
-            raise ValueError("Prompt contains invalid characters")
-        
-        # Remove potential command injection patterns
+        # Remove potential command injection patterns first
         dangerous_patterns = [
             r'[;&|`$(){}[\]<>]',  # Shell metacharacters
             r'\\[nrtbfav]',       # Escape sequences
             r'\.\.',              # Directory traversal
-            r'/[a-zA-Z]',         # Absolute paths
+            r'/[a-zA-Z]',         # Absolute paths starting with /
+            r'rm\s+',             # rm commands
+            r'sudo\s+',           # sudo commands
+            r'exec\s*\(',         # exec function calls
         ]
         
         for pattern in dangerous_patterns:
             if re.search(pattern, prompt):
                 raise ValueError("Prompt contains potentially dangerous content")
+        
+        # Allow only safe characters after dangerous pattern check
+        # Allow alphanumeric, spaces, basic punctuation
+        safe_chars = re.compile(r'^[a-zA-Z0-9\s\.\,\?\!\-\'\"\:]+$')
+        if not safe_chars.match(prompt):
+            raise ValueError("Prompt contains invalid characters")
         
         return prompt.strip()
 
