@@ -1,5 +1,19 @@
-flask
-rich
-requests
-openwakeword
+# Core dependencies with pinned versions
+flask==3.1.1
+rich==14.0.0
+requests==2.32.4
+markupsafe==3.0.2
+
+# AI and ML dependencies
+openwakeword==0.6.0
+onnxruntime==1.22.0
+
+# Security dependencies
+cryptography==43.0.3
+
+# Development dependencies (optional)
+# pytest==8.3.4
+# pytest-cov==6.0.0
+# black==24.10.0
+# flake8==7.1.1
 
