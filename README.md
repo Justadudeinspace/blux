@@ -17,6 +17,40 @@ By: ~JADIS
 
 ---
 
+<p align="center">
+  <a href="https://github.com/Justadudeinspace/blux/blob/main/docs/CHANGELOG.md">
+  <img src="https://img.shields.io/badge/Changelog-BLUX%20v2.0-blueviolet?style=for-the-badge" alt="BLUX Changelog">
+  </a>
+</p>
+
+---
+
+<p align="center">
+  <a href="https://github.com/Justadudeinspace/blux">
+    <img src="https://img.shields.io/github/issues/Justadudeinspace/blux?color=blue" alt="BLUX Issues"/>
+    <img src="https://img.shields.io/github/last-commit/Justadudeinspace/blux?color=brightgreen" alt="Last Commit"/>
+    <img src="https://img.shields.io/github/license/Justadudeinspace/blux?color=yellow" alt="License"/>
+  </a>
+</p>
+
+---
+
+## 🛠️ Tech & Tools
+
+<div align="center">
+  
+![Android](https://img.shields.io/badge/-Android-3DDC84?logo=android&logoColor=white)
+![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white)
+![Termux](https://img.shields.io/badge/-Termux-000000?logo=gnu-bash&logoColor=white)
+![Linux](https://img.shields.io/badge/-Linux-FCC624?logo=linux&logoColor=black)
+![VS Code](https://img.shields.io/badge/-VS%20Code-007ACC?logo=visual-studio-code&logoColor=white)
+![Acode](https://img.shields.io/badge/-Acode-1A73E8?logo=google-play&logoColor=white)
+![Open Source](https://img.shields.io/badge/-Open%20Source-0080FF?logo=github&logoColor=white)
+
+</div>
+
+---
+
 ## 📚 Table of Contents
 
 - [What is BLUX v2.0?](#-what-is-blux-v20)
