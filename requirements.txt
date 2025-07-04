@@ -9,7 +9,7 @@ openwakeword==0.6.0
 onnxruntime==1.22.0
 
 # Security dependencies
-cryptography==43.0.3
+cryptography==44.0.1
 
 # Development dependencies (optional)
 # pytest==8.3.4
