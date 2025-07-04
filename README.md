@@ -25,6 +25,9 @@ By: ~JADIS
   <a href="https://github.com/Justadudeinspace/blux/blob/main/docs/CHANGELOG.md">
   <img src="https://img.shields.io/badge/Changelog-BLUX%20v2.0-blueviolet?style=for-the-badge" alt="BLUX Changelog">
   </a>
+  <a href="https://github.com/Justadudeinspace/blux/discussions">
+  <img src="https://img.shields.io/badge/Discussions-Join%20the%20conversation-blueviolet?style=for-the-badge" alt="BLUX Discussions">
+  </a>
 </p>
 
 ---
