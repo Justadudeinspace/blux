@@ -7,22 +7,25 @@
 </p>
 
 
-text
-![BLUX Logo](BLUX_logo.jpeg)
-
 # ⚡️ BLUX v2.0 – The Sovereign Android AI Forge ⚡️
 
-**"Your Mind. Your Machine. Your Reality."**  
-*Create. Innovate. Never Destroy.*
+**"Your Mind. Your Machine. Your Reality."**
 
-By ~JADIS
+```
+*Create. Innovate. Never Destroy.*
+```
+
+By: ~JADIS
 
 ---
 
 ## 🔥 What is BLUX v2.0?
 
-**BLUX v2.0** is a fully offline, AI-powered, terminal-based development forge for Android.  
+**BLUX v2.0** is a fully offline, AI-powered, terminal-based development forge for Android.
+
+```
 No PC. No subscriptions. No limits.
+```
 
 - Harness the power of local LLMs, voice, automation, and scripting—right on your device.
 - Designed for creators, tinkerers, and visionaries who demand control and privacy.
@@ -64,28 +67,30 @@ No PC. No subscriptions. No limits.
 
 ### 2. Clone the Repository
 
+```
 git clone https://github.com/Justadudeinspace/blux.git
 cd blux
-
-text
+```
 
 ### 3. Set Your Hugging Face Token (for model downloads)
 
+```
 export HF_TOKEN=your_huggingface_token
-
-text
+```
 
 ### 4. Run the Installer
 
+```
 bash scripts/install.sh
+```
 
-text
 
 ### 5. Switch Models Anytime
 
+```
 bash scripts/switch_model.sh
+```
 
-text
 
 ---
 
@@ -93,9 +98,10 @@ text
 
 Test all installed models for speed and memory usage:
 
+```
 bash scripts/benchmark_models.sh
+```
 
-text
 
 ---
 
@@ -103,11 +109,13 @@ text
 
 Discover and install plugins:
 
+```
 python scripts/install_plugin.py
+```
 
-text
 
 - Browse available plugins in `plugins/registry.json`
+
 - Install new plugins instantly
 
 ---
@@ -131,35 +139,38 @@ All official BLUX releases are signed with my GPG key.
 
 To verify:
 
+```
 gpg --import blux_author_pubkey.asc
 gpg --verify blux_v2_xda_ready.sig blux_v2_xda_ready.zip
+```
 
-text
 
 ---
 
 ## 🛠️ Troubleshooting
 
 - **Model not found:**  
-  Run `bash scripts/switch_model.sh` and select a valid model.
+  - Run `bash scripts/switch_model.sh` and select a valid model.
 - **Model download fails:**  
-  Ensure your Hugging Face token is set and valid.
+  - Ensure your Hugging Face token is set and valid.
 - **Plugin not loading:**  
-  Check for syntax errors or missing dependencies in the plugin file.
+  - Check for syntax errors or missing dependencies in the plugin file.
 - **Update BLUX:**  
-  Run `bash scripts/update.sh`.
+  - Run `bash scripts/update.sh`.
 
 ---
 
 ## 🧪 How to Test BLUX v2.0
 
 1. **Run the main app:**
+
     ```
     python3 -m blux.blux
     ```
     - Enter a prompt and verify AI response.
 
 2. **Switch models:**
+
     ```
     bash scripts/switch_model.sh
     python blux/blux.py
@@ -167,12 +178,14 @@ text
     - Ensure the new model responds.
 
 3. **Benchmark models:**
+
     ```
     bash scripts/benchmark_models.sh
     ```
     - Check logs for speed/memory.
 
 4. **Install a plugin:**
+
     ```
     python scripts/install_plugin.py
     python blux/blux.py
@@ -203,30 +216,38 @@ text
 
 ## 💬 Final Words
 
-BLUX v2.0 is for the visionaries, the outcasts, and the creators who refuse to accept “impossible.”  
+BLUX v2.0 is for the visionaries, the outcasts, and the creators who refuse to accept “impossible.”
+
+```
 Let’s build the future—one line of code at a time.
+```
 
 ---
 
-## 🚀 Contributors Wanted! Join the BLUX v2.0 Terminal AI Forge
+## 🚀 Contributors Wanted!
 
-Are you a coder, creator, Android modder, AI enthusiast, or a visionary who refuses to accept “impossible”?  
+> - Join the BLUX v2.0 Terminal AI Forge
+
+> Are you a coder, creator, Android modder, AI enthusiast, or a visionary who refuses to accept “impossible”?  
 BLUX v2.0 needs radical collaborators!
 
-We’re looking for passionate contributors to help shape the future of offline, modular, open-source AI on Android and Linux.
+> We’re looking for passionate contributors to help shape the future of offline, modular, open-source AI on Android and Linux.
 
-**Collaboration Means:**
+### **Collaboration Means:**
 - Working on cutting-edge terminal AI tools
 - Building and testing plugins (like the TWRP Builder)
 - Pushing the boundaries of what’s possible on Android and Linux
 - Learning, teaching, and creating together—no matter your background
 
-Sound like your kind of rebellion?  
+> Sound like your kind of rebellion?
+
 **Reach out and join the BLUX Forge today!**
 
 Let’s build something legendary.
 
+```
 **Your mind. Your machine. Your reality.**
+```
 
 To get started, fork the repo, open an issue, or just say hi!
 
