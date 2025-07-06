@@ -1,0 +1,33 @@
+#!/data/data/com.termux/files/usr/bin/bash
+termux-setup-storage
+
+# Package Installation
+pkg update -y && pkg upgrade -y
+pkg install openssh nano vim starship proot curl jq wget git python python2 python3 php gnupg make cmake zsh docker.io qemu-system-x86-64-headless qemu-utils -y
+
+# Pull API key pages
+termux-open-url https://platform.openai.com/signup
+termux-open-url https://deepseek.com
+termux-open-url https://aistudio.google.com/app/apikey
+termux-open-url https://huggingface.co/settings/tokens
+
+# Install Ubuntu
+proot-distro install ubuntu || echo "Ubuntu install failed"
+
+# Create launch script for remote Ollama
+cat > $HOME/start-ollama-tunnel.sh <<EOF
+#!/data/data/com.termux/files/usr/bin/bash
+ssh -L 11434:localhost:11434 user@your.server.ip
+EOF
+chmod +x $HOME/start-ollama-tunnel.sh
+
+# Auto-shell config
+echo 'eval "$(starship init bash)"' >> ~/.bashrc
+mkdir -p ~/.config/fish
+echo 'starship init fish | source' >> ~/.config/fish/config.fish
+echo 'eval "$(starship init zsh)"' >> ~/.zshrc
+
+# Reminder for Acode GPT plugin manual config
+echo -e "\n✅ Acode GPT Plugin: Set API endpoint to http://localhost:11434/api/generate"
+echo -e "Update headers in /storage/emulated/0/.acode/settings.json with:"
+echo '{ "Content-Type": "application/json" }'

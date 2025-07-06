@@ -1,0 +1,7 @@
+#!/data/data/com.termux/files/usr/bin/bash
+echo "Removing Ollama Acode integration..."
+rm -f $HOME/start-ollama-tunnel.sh
+sed -i '/starship init bash/d' ~/.bashrc
+sed -i '/starship init fish/d' ~/.config/fish/config.fish 2>/dev/null
+sed -i '/starship init zsh/d' ~/.zshrc
+echo "Uninstalled BLUX Ollama Acode components."
